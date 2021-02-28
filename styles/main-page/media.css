@@ -1,0 +1,113 @@
+@media screen and (max-width: 948px) {
+    .content-part {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .top-header{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .footer-container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .top-section-decoration{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 854px){
+    
+    .jumbotron-close-button{
+        display: none;
+    }
+    .info-card{
+        display: block;
+        background-color: #F9F6F3;
+        width: 100%;
+    }
+    .card{
+        background-color: #F9F6F3;
+        width: 100%;
+        padding: 46px 20px 48px 20px;
+    }
+
+    .text-form{
+        width: 100%;
+        max-width: none;
+    }
+
+    .card-buttons{
+        justify-content: center;
+    }
+    .form-label {
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 665px){
+    .sign-in,
+    .header-navigation-list{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        position: absolute;
+        right: 3%;
+        top: 15px;
+    }
+    .header-navigation{
+        position: relative;
+
+    }
+    .top-section{
+        display: none;
+    }
+    .logo-container{
+        margin-bottom: 30px;
+    }
+    .form-label {
+        display: block;
+    }
+
+    .footer-container {
+        display:block;
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+    .block-description {
+        margin-left: 0;
+    }
+    
+    .footer-information{
+        margin-bottom: 20px;
+    }
+    
+    .footer-buttons {
+        margin-bottom: 20px;
+    }
+
+    
+
+
+    
+}
+
+@media screen and (max-width: 383px){
+    .jumbotron-logo{
+        height: 105px;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        
+    }
+    .logo-container{
+        position: relative;
+        padding-top: 40%;
+    }
+}

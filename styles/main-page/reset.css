@@ -1,0 +1,35 @@
+html {
+    font-family: PT Sans Narrow;
+    
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+button {
+    border: none;
+    background-color: transparent;
+    transition: 0.3s ease;
+    border-radius: 2px;
+
+}
+
+button:hover {
+    border-radius: 3px;
+    background: #444444;
+}
+.content-part{
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}

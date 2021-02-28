@@ -1,0 +1,11 @@
+@import './reset.css';
+@import './styles_header.css';
+@import "./links_buttons.css";
+@import './layout.css';
+@import 'jumbotron.css';
+@import 'top-section.css';
+@import 'info-card.css';
+@import 'footer.css';
+@import './media.css';
+@import './modal.css';
+

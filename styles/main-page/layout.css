@@ -1,0 +1,6 @@
+.main_container {
+    background-image: url(../../assets/page-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 0%;
+}
