@@ -1,6 +1,5 @@
-let a = document.querySelectorAll('.header-navigation-link');
-let lis = Array.prototype.slice.call(a);
-let buttonToOpenModalForm = document.querySelector('.sign-in'); 
+
+let buttonToOpenModalForm = document.querySelector('.sign-in-header'); 
 let buttonToImmediatelyCloseModalForm = document.querySelector('.mainmodal-close');
 let modalForm = document.querySelector('.mainmodal');
 let hamburgerMenu = document.querySelector('.hamburger-menu');
@@ -30,8 +29,3 @@ submodalWindow.addEventListener('mouseup', ()=>{
 navigationLink.addEventListener('click', function(){   
     modalForm.classList.add("mainmodal--visible");
 });
-
-
-
-
-
