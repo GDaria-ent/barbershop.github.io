@@ -1,0 +1,46 @@
+.page-list {
+    list-style: none;
+    padding: 0;
+}
+.main {
+    display: flex;
+}
+
+.img-section {
+    margin-right: 89px;
+}
+.page-description {
+    padding-top: 22px;
+}
+.description-header{
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.description-item--accent {
+    margin-right: 15px;
+    color: #aeaeae
+}
+.description-text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.list-name {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.page-list{
+    margin-top:27px;
+}
+.list-item {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700; 
+}
+.list-svg{
+    margin-right: 4px;
+}

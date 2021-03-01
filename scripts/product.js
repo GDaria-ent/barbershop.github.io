@@ -1,5 +1,4 @@
-
-let buttonToOpenModalForm = document.querySelector('.sign-in'); 
+let buttonToOpenModalForm = document.querySelector('.sign-in-header'); 
 let buttonToImmediatelyCloseModalForm = document.querySelector('.mainmodal-close');
 let modalForm = document.querySelector('.mainmodal');
 let hamburgerMenu = document.querySelector('.hamburger-menu');
@@ -9,14 +8,6 @@ const buttonToCloseFilter = document.querySelector('.filter-close');
 let submodalForm = document.querySelector('.submodal');
 let submodalWindow = document.querySelector('.submodal-window');
 let navigationLink = document.querySelector('.nav-link--enter');
-let buyButton = document.querySelectorAll('.card-button');
-let lis = Array.prototype.slice.call(buyButton);
-
-lis.forEach(function(item, lis){
-    item.addEventListener('click', ()=>{
-        window.location.href = './product.html';
-    });
-});
 
 
  
@@ -26,14 +17,6 @@ buttonToOpenModalForm.addEventListener('click', function(){
 
 buttonToImmediatelyCloseModalForm.addEventListener('click', function(){
     modalForm.classList.remove("mainmodal--visible");
-});
-
-filterButton.addEventListener('click', function(){
-    filterWindow.classList.add('filters--visible');
-});
-
-buttonToCloseFilter.addEventListener('click', function(){
-    filterWindow.classList.remove('filters--visible');
 });
 
 hamburgerMenu.addEventListener('click', ()=>{
@@ -47,6 +30,3 @@ submodalWindow.addEventListener('mouseup', ()=>{
 navigationLink.addEventListener('click', function(){   
     modalForm.classList.add("mainmodal--visible");
 });
-
-
-

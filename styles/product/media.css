@@ -1,0 +1,93 @@
+@media screen and (max-width: 800px){
+    .header-icon{
+        display: none;
+    }
+    .main{
+        display: block;
+    }
+
+    .img-section{
+        margin: 0 auto;
+    }
+    .page-description{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .path{
+        padding-left: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .path-item{
+        margin-right: 0;
+        font-size:10px;
+    }
+    .path-svg{
+        margin-right: 0;
+    }
+    .page-list{
+        margin-bottom: 20px;
+        
+    }
+    .button-section {
+        margin-bottom: 0px;
+    
+    }
+    .footer-buttons{
+        margin-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 950px){
+    .content-part{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .footer-container{
+        padding: 20px 8px 20px 8px;
+    }
+    
+}
+
+@media screen and (max-width: 744px){
+    .nav-item{
+        display: none;
+    }
+    .sign-in-header{
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        border: 1px solid white;
+        width: 20px;
+        height: 20px;
+    }
+    .header-main {
+        padding-bottom: 23px;
+    }
+    .footer-container {
+        display:block;
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+    .block-description {
+        margin-left: 0;
+    }
+    
+    .footer-information{
+        margin-bottom: 20px;
+    }
+    
+    .footer-buttons {
+        margin-bottom: 20px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    
+}
+   
