@@ -1,0 +1,20 @@
+h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 16px;
+    font-style: normal;
+}
+.path{
+    padding-top: 49px;
+    padding-bottom: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+.path-button{
+    display:none;
+}
+
+.path-svg{
+    margin-right: 12px;
+}

@@ -1,0 +1,25 @@
+.bottom-nav-item {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 13px 18px 12px;
+    margin-right: 4px;
+}
+
+.bottom-nav-item--accent{
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    
+}
+
+.bottom-nav-item:hover {
+    background-color: #666666;
+}
+.nav-container {
+    margin-left: 240px;
+    margin-top: 25px;
+    
+}

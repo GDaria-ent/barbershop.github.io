@@ -1,0 +1,75 @@
+.nav-item {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    margin-left: 40px;
+    cursor: pointer;
+    padding-bottom: 24px;
+}
+
+.sign-in-header{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: 6px;
+}
+.path-item {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 12px;
+}
+.path-item--accent {
+    color: #ABA9A7;
+}
+.sidebar-button {
+    font-family: PT Sans Narrow, sans-serif;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    width: 112px;
+    height: 43px;
+    text-transform: uppercase;
+    margin-top:32px;
+}
+.sidebar-button:hover{
+    background-color: #666666;
+}
+
+.card-button {
+    width: 78px;
+    height: 43px;
+    background-color: #000000;
+    text-transform: uppercase;
+}
+.card-button:hover{
+    background-color: #666666;
+}
+.footer-icon {
+    height:90%;
+}
+.footer-button{
+    height: 43px;
+    width: 43px;
+    background:#000000;
+    padding: 0;
+    cursor: pointer;
+}
+.block-button{
+    width:140px;
+    height:43px;
+    background:#000000;
+    font-family: PT Sans Narrow, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.footer-buttons {
+    margin-right: 163px;
+    
+}
+.hamburger-menu{
+    display: none;
+}

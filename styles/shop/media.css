@@ -1,0 +1,139 @@
+@media screen and (max-width: 949px) {
+    .path{
+        padding-left:18px;
+        padding-right: 18px;
+    }
+    .page-main {
+        padding-left: 8px;
+        padding-right: 4px;
+    }
+    .footer-container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .sidebar {
+        display: none;
+    }
+    .page-main {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .nav-container {
+        margin-left: 0px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .path-button{
+        display:block;
+        width: 200px;
+        height: 43px;
+        background-color: #000000;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        cursor:pointer;
+    }
+    .path-button::hover{
+        background-color: #666666;
+    }
+    .footer-buttons {
+        margin-right: 10px;
+    }
+    .header-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 741px) {
+    .nav-item {
+        display: none;
+    }
+    .header-button{
+        display: none;
+    }
+    .header-main{
+        padding-bottom: 24px;
+    }
+    .hamburger-menu {
+        display: block;
+        width:30px;
+        height: 30px;
+        border: 1px solid white;
+        margin-right: 18px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .footer-container {
+        display:block;
+        padding-left: 60px;
+        padding-top: 25px;
+    }
+    .block-description {
+        margin-left: 0;
+    }
+    
+    .footer-information{
+        margin-bottom: 20px;
+    }
+    .button-description{
+        display: none;
+    }
+    .footer-buttons {
+        margin-bottom: 20px;
+    }
+    .content-card {
+        max-width: calc((100% - 15px) / 2);
+    }
+    .main-content {
+        justify-content: space-around;
+        
+    }
+    h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .path-svg {
+        margin-right: 0;
+    }
+    .path-button{
+        margin-top:20px;
+        width:150px;
+    }
+    .path-item{
+        margin-right: 0;
+    }
+    .page-main {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .path{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    @media screen and (max-width: 424px){
+        .path{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+        .content-card {
+            max-width: calc(100% - 30px);
+        }
+        .image-description {
+            margin-left: 55px;
+            
+        }
+        
+    }
+}
