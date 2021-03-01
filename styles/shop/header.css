@@ -1,0 +1,22 @@
+.top-header {
+    width: 100%;
+    background: #000000;
+}
+.header-main {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 29px 5px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation{
+    display: flex;
+    padding-left: 15px;
+}
+
+.header-button {
+    padding-right: 9px;
+}

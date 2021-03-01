@@ -1,0 +1,51 @@
+.sidebar-label { /*делаем перенос*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+
+.custom-checkbox { /*прячем старый чекбокс*/
+    width: 1px;
+    height: 1px;
+    position: fixed;
+    left: -9999px;
+    visibility: hidden
+}
+.sidebar-plug { /*стилизуем фейковый чекбокс*/
+    display: block;
+    width: 20px;
+    Height: 20px;
+    border: 2px solid #000101;
+    background-color: #F9F6F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+}
+.sidebar-plug i { /*делаем иконку невидимой*/
+    display: none;
+}
+
+.custom-checkbox:checked ~ .sidebar-plug i { /*делаем делаем иконку видимой после нажатия*/
+    display: block;
+}
+
+.sidebar-name {
+    margin: 0;
+    margin-bottom: 26px;
+}
+.sidebar-plug--round {
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+.sidebar-name--extra-space {
+    margin-top: 50px;
+}
+.sidebar {
+    max-width:200px;
+    width: 100%;
+    margin-right:40px;
+    
+}
